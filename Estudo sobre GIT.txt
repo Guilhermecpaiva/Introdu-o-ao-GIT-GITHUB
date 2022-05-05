@@ -1,0 +1,14 @@
+SHA significa Secure Hash Algoritm
+É um conjunto de funnções hashcriptograficas  projetadas pela NSA
+A encriptação gera um conjunto de charcters idenficador de 40 digitos
+É uma forma curta de representar um arquivo
+
+Blob é um objeto do GIT que contem meta dados do Git que guarda o sha1 
+Tree armazenam blobs é uma crescente, tmbm contem meta dados e aponta para um blob que por sua vez tme um sha1 e tmbm guarda o nome do arquivo.
+Podem apontar tanto para blob quanto para outras arvores.Tmbm possuem um sha1 desses meta dados
+COMMIT é um objeto que aponta para uma arvore, para um parente(ultimo commit antes dele), para um autor e para uma mensagem
+Possue um timestamp cque é um carimbo com data e horario de quando fooi criado
+Um commit é unico para cada autor, que por sua vez tmbm possua sua sha1
+
+
+Chave SSH é uma forma segura e encriptada entre duas maquinas, repositorio local e remoto

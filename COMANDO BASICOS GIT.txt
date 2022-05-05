@@ -1,0 +1,27 @@
+dir  lista arquivos
+cd navegue entre as pastas
+cd entrar na pasta
+cd .. retorna 1 pasta
+mv move pastas
+cls limpar tela
+tab ayto complete
+mkdir criar pastas
+echo > nome.txt redireciona para um arquivo txt
+del apaga arquivos
+rmdir nomedapasta /S /Q apaga diretorio 
+
+-git init iniciar repositorio do git
+-git add mover arquivos e iniciar versionamento
+-git add * adiciona todos os arquivos do diretorio e adicona ao Staged para ser comitado
+-git commit criar commit
+-git status monitora os status dos arquivos
+-git remote add origin apontar repositorio local para um repositorio remoto 
+-git remote -v lista de repositorio remoto cadastrado
+-git push empurrar do repositorio local para o remoto
+-git pull traz os arquivos do repositorio remoto para o local
+
+
+
+
+FLAGS 
+-a mostra itens ocultos
